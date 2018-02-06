@@ -4,7 +4,7 @@ This repo if for a Raspberry Pi weather statuon that uses a Raspberry Pi compyte
 
 Example Camera Output
 
-![example camera output](https://www.myweatherobservations.com/github/camera.jpg)
+![example camera output](https://www.myweatherobservations.com/github/camera.png)
 
 Sensors and ADC
 
