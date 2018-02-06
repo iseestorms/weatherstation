@@ -1,4 +1,4 @@
-# My Weather Observations Weather Station (Revision: v0.1)
+# My Weather Observations Weather Station (v0.2)
 
 This repo if for a Raspberry Pi weather statuon that uses a
 
@@ -12,6 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need to install the software and how to install them
+Purchased:
 1x $56 AUD Raspberry Pi 2 or Higher. (I have a Raspbery Pi 2 1.1)
 1x $18 AUD TPi Link 300Mbps Wireless N USB Adapter (TL-WN821N) or otehr Raspberry Pi Compatible adalter
 1x #39 AUD 8 Mega Pixel Raspberry Pi Camera (3280 x 2464 pixels or 1080p video)
@@ -23,51 +24,37 @@ Breadboard +breadboard wires, or protoboard and wires
 Optional LEDS, Piezo speaker etc
 
 
-```
-Give examples
-```
+## Hardware Schematics
+
+todo..
+
+
+## Raspberry Pi Setup
+
+Connected to WiFi on Boot
+I2S
+SPI
+Python 2.7
+Boot to command line.
+Change pi password.
+RASPBIAN STRETCH WITH DESKTOP - Nov 2017
+
+
+Wait for Network at boot.
+
 
 ### Installing
 
 A pythoin setp script will be available soon (https://stackoverflow.com/questions/1471994/what-is-setup-py)
-
-sudo python setup.py install 
-
-```
-Give the example
-```
-
-And repeat
+ 
 
 ```
-until finished
+sudo python setup.py install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+This will downlaod scripts that talk to the alalog sensor, tale imagfes ever 2 minutes and upload to the web. 
 
-## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Schematics
-
-todo..
 
 
 ## Deployment
@@ -76,21 +63,12 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+Bash, Python
 
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-
-
-
-## Versioning
-
-todo.. 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
