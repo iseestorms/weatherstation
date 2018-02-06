@@ -1,8 +1,14 @@
 # My Weather Observations Weather Station 
 
-This repo if for a Raspberry Pi weather statuon that uses a
+This repo if for a Raspberry Pi weather statuon that uses a Raspberry Pi compyter (with an 8MB camera) and a BME280 I2C/SPI Temperature Humidity Barometric Digital Sensor, ADS1115 ADC 4 Channel 16Bit I2C PGA etc to take photos and sensor data and bash and pythin scripts to overlay the sensor data with ImageMagick (https://www.imagemagick.org/) to ovelay the data before uploading the photo to the web.  Photos can be uploaded to the https://www.myweatherobservations.com site for free and stared in the I See Storms app.
 
-BME280 I2C/SPI Temperature Humidity Barometric Digital Sensor, ADS1115 ADC 4 Channel 16Bit I2C PGA and a 8 MegaPixel Raspberry Pi webcam.
+Example Camera Output
+
+![example camera output](https://www.myweatherobservations.com/github/camera.jpg)
+
+Sensors and ADC
+
+![bme280 and adc](https://www.myweatherobservations.com/github/sensors.jpg)
 
 ## Getting Started
 
