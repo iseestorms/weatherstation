@@ -32,6 +32,16 @@ Optional LEDS, Piezo speaker etc.
 
 Approx total cost: $250
 
+### Why
+
+Todo...
+
+### Roadmap
+
+I plan on releasing the code as is. 
+Then integrating submission to https://www.myweatherobservations.com via API from the weathervstation.
+Building in more sensors. 
+Integrating with the I See Storms App.
 
 ### Installing
 
