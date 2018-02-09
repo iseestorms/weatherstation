@@ -37,16 +37,19 @@ To build a fleet of DIY weather stations (and Web platform) and cameras/sensors 
 
 ### Roadmap
 
-I plan on releasing the code as is. 
-Then integrating submission to https://www.myweatherobservations.com via API from the weathervstation.
-Building in more sensors. 
-Integrating with the I See Storms App.
+* I plan on releasing the code as is for a home only weather station (while under development)
+* Then integrating webcam and data submission to https://www.myweatherobservations.com (via API).
+* Then adding more sensors and making a final hadrware design. 
+* Integrating dubmitted data with the I See Storms App.
 
 ### RaspberryPi Setup
 
-Format a 16GB Class 10 SD Card with SD Formatter from https://www.sdcard.org/downloads/formatter_4/
-Download the RASPBIAN STRETCH WITH DESKTOP Image with desktop 4.9 o higher  rom https://www.raspberrypi.org/downloads/raspbian/ image from
-Copy the image to the pi with Etcher from https://etcher.io/
+* Format a 16GB Class 10 SD Card with SD Formatter from https://www.sdcard.org/downloads/formatter_4/
+* Download the RASPBIAN STRETCH WITH DESKTOP Image with desktop 4.9 o higher from https://www.raspberrypi.org/downloads/raspbian/ 
+* Flash the SDCard to the SD Card with Etcher from https://etcher.io/
+* Plug the SD Card into the Pi and turn it on.
+* Boot the pi and goto the Raspberry start menu then Raspberry > Preferences -> Raspberry Pi Configuration (under the systen tab: Set a password, Set a hostname, Set boot to CLI, Set boot as curret user (pi), Set Wait for Network, Under the Interfaces Tab (Enable)): Camera, SSH, SPI, i2C, Serial, 1-Wire, Under the Performance tab set: 32MB Memory, Under localization set localiza5ion for your region).
+* Reboot the Pi (to CLI)
 
 ### Installing
 
