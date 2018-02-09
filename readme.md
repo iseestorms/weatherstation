@@ -42,6 +42,12 @@ Then integrating submission to https://www.myweatherobservations.com via API fro
 Building in more sensors. 
 Integrating with the I See Storms App.
 
+### RaspberryPi Setup
+
+Format a 16GB Class 10 SD Card with SD Formatter from https://www.sdcard.org/downloads/formatter_4/
+Download the RASPBIAN STRETCH WITH DESKTOP Image with desktop 4.9 o higher  rom https://www.raspberrypi.org/downloads/raspbian/ image from
+Copy the image to the pi with Etcher from https://etcher.io/
+
 ### Installing
 
 A pythoin setp script will be available soon (https://stackoverflow.com/questions/1471994/what-is-setup-py)
