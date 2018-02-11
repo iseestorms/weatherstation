@@ -76,11 +76,11 @@ sudo python setup.py install
 This will download scripts that talk to the analogue sensor, take images ever 2 minutes and upload to the web. 
 
 
-## MyWeatherObservations.com API information
+## MyWeatherObservations.com Information
 
 Todo: ..
 
-## Isee Storms Network information
+## I See Storms Information
 
 Todo: ..
 
