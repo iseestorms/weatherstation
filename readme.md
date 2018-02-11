@@ -6,6 +6,8 @@ Sensors used are a Light Sensor, BME280 I2C/SPI Temperature, Humidity and Barome
 
 Example Camera Output
 
+![example camera output](https://www.myweatherobservations.com/fritzing/camera.png)
+
 ### Why
 
 To allow uses to share weather data (from sensors) and photos.
@@ -14,8 +16,6 @@ To allow uses to share weather data (from sensors) and photos.
 * Then integrating webcam and data submission to https://www.myweatherobservations.com/api/
 * Then adding more sensors and making a final hadrware design and PCB. 
 * Integrating submitted data with the I See Storms App.
-
-![example camera output](https://www.myweatherobservations.com/fritzing/camera.png)
 
 Sensors and ADC
 
