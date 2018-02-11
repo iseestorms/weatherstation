@@ -58,14 +58,12 @@ Approx total cost: $250
 
 ### Wiring Schematic Image (Draft)
 
-Draft Schematic
+Draft Schematic (and Files)
 
 ![draft schematic](https://www.myweatherobservations.com/fritzing/alpha-prototype.jpg)
 
-### Wiring Schematic (Fritzig Files) (Draft)
-
-![weather-station-pi.fzz](https://www.myweatherobservations.com/fritzing/weather-station-pi.fzz)
-![parts.zip](https://www.myweatherobservations.com/fritzing/parts.zip) - Fritzig parts (BME280, 128x32 OLED, Gas Sensor, Fan, GY-271, ADS1115 etc)
+Fritzing File: https://www.myweatherobservations.com/fritzing/weather-station-pi.fzz
+Fritzing Parts: https://www.myweatherobservations.com/fritzing/weather-station-pi-parts.zip
 
 ### Installing
 
