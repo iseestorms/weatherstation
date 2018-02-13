@@ -57,7 +57,7 @@ Approx total cost: $250
 * Reboot the Pi (to CLI)
 * Connect the wifi to the network (run ifconfig to see if you have an ip)
 * Setup wifi: "sudo raspi-config" then "network" (set WiFi name and password and enable "Wait for network at boot")
-* Reboot and ensure you have network from CLI
+* Reboot and ensure you have network from CLI (If the WiFi hardware fails to connect to your WiFi consider installing NOOBS https://www.raspberrypi.org/downloads/noobs/ as Raspian did not work well for me in some cases)
 
 
 ### Wiring Schematic Image (Draft)
