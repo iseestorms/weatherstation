@@ -32,14 +32,14 @@ The final version will include a setup.py to download and get the code working i
 Things you need.
 
 * 1x $56 AUD Raspberry Pi 2 or Higher. (I have a Raspbery Pi 2 1.1).
-* 1x $18 AUD TPi Link 300Mbps Wireless N USB Adapter (TL-WN821N) or other Raspberry Pi Compatible adalter (only needed in Raspberry Pi 1 or 2, 3 has Wifi).
+* 1x Raspberri pi Wifi adapter or $18 AUD TPi Link 300Mbps Wireless N USB Adapter (TL-WN821N) or other Raspberry Pi Compatible adalter (only needed in Raspberry Pi 1 or 2, 3 as Wifi).
 * 1x #39 AUD 8 Mega Pixel Raspberry Pi Camera (3280 x 2464 pixels, 1080p video).
 * 1x $7 AUD 30cm Raspberry PI Camera Cable (15Pin FFC FPC Flexible Ribbon Flat).
 * 1x $5 ADS1115 4 Channel 16 Bit I2C Analog to Digital Sensor.
 * 1x $13 AUD BME280 Temperature Humidity Barometric Pressure Digital Sensor (I2C/SPI).
 * 1x $15 Class 10 SD Card.
 * 1x Enclosure (as required).
-* 2x waterproof metal buttons (one for shutdown and 1 to take an take image).
+* 2x Waterproof momentary metal buttons (one for shutdown and 1 to take an take image).
 * 1x $18 Micro USB 2000ma power pack.
 * 1x Breadboard +breadboard wires, or protoboard and wires.
 * Optional LEDS, Piezo speaker etc.
@@ -55,6 +55,10 @@ Approx total cost: $250
 * Plug the SD Card into the Pi and turn it on.
 * Boot the pi and goto the Raspberry start menu then Raspberry > Preferences -> Raspberry Pi Configuration (under the systen tab: Set a password, Set a hostname, Set boot to CLI, Set boot as curret user (pi), Set Wait for Network, Under the Interfaces Tab (Enable)): Camera, SSH, SPI, i2C, Serial, 1-Wire, Under the Performance tab set: 32MB Memory, Under localization set localiza5ion for your region).
 * Reboot the Pi (to CLI)
+* Connect the wifi to the network (run ifconfig to see if you have an ip)
+* Setup wifi: "sudo raspi-config" then "network" (set WiFi name and password and enable "Wait for network at boot")
+* Reboot and ensure you have network from CLI
+
 
 ### Wiring Schematic Image (Draft)
 
