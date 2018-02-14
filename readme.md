@@ -50,7 +50,7 @@ Approx total cost: $250
 ### RaspberryPi Setup
 
 * Format a 16GB Class 10 SD Card with SD Formatter from https://www.sdcard.org/downloads/formatter_4/
-* Download the RASPBIAN STRETCH WITH DESKTOP Image with desktop 4.9 o higher from https://www.raspberrypi.org/downloads/raspbian/ 
+* Download the RASPBIAN STRETCH WITH DESKTOP Image with desktop 4.9 or higher from https://www.raspberrypi.org/downloads/raspbian/ 
 * Flash the SDCard to the SD Card with Etcher from https://etcher.io/
 * Plug the SD Card into the Pi and turn it on.
 * Boot the pi and goto the Raspberry start menu then Raspberry > Preferences -> Raspberry Pi Configuration (under the systen tab: Set a password, Set a hostname, Set boot to CLI, Set boot as curret user (pi), Set Wait for Network, Under the Interfaces Tab (Enable)): Camera, SSH, SPI, i2C, Serial, 1-Wire, Under the Performance tab set: 32MB Memory, Under localization set localiza5ion for your region).
@@ -59,6 +59,10 @@ Approx total cost: $250
 * Setup wifi: "sudo raspi-config" then "network" (set WiFi name and password and enable "Wait for network at boot")
 * Reboot and ensure you have network from CLI (If the WiFi hardware fails to connect to your WiFi consider installing NOOBS https://www.raspberrypi.org/downloads/noobs/ as Raspian did not work well for me in some cases)
 
+
+### Setup Troubleshooting
+
+* Use the command "whoami" to verify the logged in user after boot is "pi"
 
 ### Wiring Schematic Image (Draft)
 
