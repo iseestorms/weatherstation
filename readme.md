@@ -62,7 +62,9 @@ Approx total cost: $250
 
 ### Setup Troubleshooting
 
-* Use the command "whoami" to verify the logged in user after boot is "pi"
+* I had issues with setting up my Raspberry Pi WiFi dongle (TP-Link TL-WN821N and the whire raspberry pi dongle) and I had to debug my WiFi setup on RASPBIAN STRETCH WITH DESKTOP Image with desktop 4.9, previous version were fine?? I ran this on ethernet: "sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get install -y rpi-chromium-mods && sudo apt-get install -y python-sense-emu python3-sense-emu && sudo apt-get install -y python-sense-emu-doc ealvnc-vnc-viewer to get some WiFi install scripts working "
+* Use the command "whoami" to verify the logged in user after boot is "pi". This guide was helpuff: http://fars-robotics.net/
+*
 
 ### Wiring Schematic Image (Draft)
 
